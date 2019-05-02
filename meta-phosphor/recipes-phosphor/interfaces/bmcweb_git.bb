@@ -1,4 +1,4 @@
-inherit obmc-phosphor-systemd
+inherit systemd
 inherit useradd
 
 USERADD_PACKAGES = "${PN}"
@@ -15,7 +15,7 @@ LIC_FILES_CHKSUM = "file://LICENCE;md5=a6a4edad4aed50f39a66d098d74b265b"
 SRC_URI = "git://github.com/openbmc/bmcweb.git"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "b97b9c36007f21628159905f95faff7a1baa5a54"
+SRCREV = "9a6fc6fe4ad7ad2e3b028419bdb081a42e88ff0a"
 
 S = "${WORKDIR}/git"
 
